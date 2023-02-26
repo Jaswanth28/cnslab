@@ -26,10 +26,10 @@ public class RSA
         // Decrypt the message
         cipher.init(Cipher.DECRYPT_MODE, privateKey);
         byte[] decryptedMessage = cipher.doFinal(encryptedMessage);
-        System.out.println("Decrypted message in bytes: " + decryptedMessage);
+        // System.out.println("Decrypted message in bytes: " + decryptedMessage);
         System.out.println("Decrypted plaintext message: " + new String(decryptedMessage));
-        System.out.println("Generated Public Key : "+publicKey);
-        System.out.println("Generated Private Key : "+privateKey);
-        System.out.println("\nDecrypted plaintext message: " + new String(decryptedMessage));
+        // System.out.println("Generated Public Key : "+publicKey);
+        // System.out.println("Generated Private Key : "+privateKey);
+        // System.out.println("\nDecrypted plaintext message: " + new String(decryptedMessage));
     }
 }
