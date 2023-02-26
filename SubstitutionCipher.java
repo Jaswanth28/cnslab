@@ -42,4 +42,4 @@ public class SubstitutionCipher
  	Enter message to Encrypt : HELLO WORLD
 	Enter the cipher key (26 letters): qwertyuiopasdfghjklzxcvbnm
 	Encrypted Message: itssg vgksr
- */
+*/
