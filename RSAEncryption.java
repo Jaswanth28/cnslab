@@ -17,11 +17,11 @@ public class RSAEncryption
 		PublicKey publicKey=pair.getPublic();
 		
 		String publicKeyString=Base64.getEncoder().encodeToString(publicKey.getEncoded());
-		System.out.print("Public Key "+publicKeyString);
+		// System.out.print("Public Key "+publicKeyString);
 		PrivateKey privateKey=pair.getPrivate();
 		
 		String privateKeyString=Base64.getEncoder().encodeToString(privateKey.getEncoded());
-		System.out.println("\nPrivate Key : "+privateKeyString);
+		// System.out.println("\nPrivate Key : "+privateKeyString);
 		
 		//Encrypt User Message
 		Cipher encryptionCipher=Cipher.getInstance("RSA");
