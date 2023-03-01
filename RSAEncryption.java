@@ -16,11 +16,11 @@ public class RSAEncryption
 		KeyPair pair=keyPairGenerator.generateKeyPair();
 		PublicKey publicKey=pair.getPublic();
 		
-		String publicKeyString=Base64.getEncoder().encodeToString(publicKey.getEncoded());
+		// String publicKeyString=Base64.getEncoder().encodeToString(publicKey.getEncoded());
 		// System.out.print("Public Key "+publicKeyString);
 		PrivateKey privateKey=pair.getPrivate();
 		
-		String privateKeyString=Base64.getEncoder().encodeToString(privateKey.getEncoded());
+		// String privateKeyString=Base64.getEncoder().encodeToString(privateKey.getEncoded());
 		// System.out.println("\nPrivate Key : "+privateKeyString);
 		
 		//Encrypt User Message
