@@ -1,5 +1,5 @@
-import java.util.Scanner;
-import java.math.BigInteger;
+import java.util.*;
+import java.math.*;
 
 public class DiffieHellman
 {
